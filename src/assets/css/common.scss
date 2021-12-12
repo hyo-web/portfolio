@@ -202,6 +202,9 @@ $WebFont: "Bakbak One", cursive;
                         position: relative;
                         height: 200px;
                         background-color: $Bbg;
+                        background-position-x: 50%;
+                        background-repeat: no-repeat;
+                        background-size: cover;
                         border-radius: 50%;
                         letter-spacing: 0;
                         .summary-box {
