@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import "./reset", "./variable";
+
 @import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
 $WebFont: "Bakbak One", cursive;
 
@@ -73,7 +74,7 @@ $WebFont: "Bakbak One", cursive;
         align-items: center;
         justify-content: center;
         height: 60vh;
-        background: url(~@/assets/images/bg3.jpg) 0 50% no-repeat;
+        background: url(~@/assets/images/bg3.jpg) 50% 50% no-repeat;
         background-size: cover;
         background-attachment: fixed;
         h1 {
@@ -115,7 +116,7 @@ $WebFont: "Bakbak One", cursive;
                     width: 100%;
                     .box {
                         width: 100%;
-                        padding-right:10px;
+                        padding-right: 10px;
                         > p {
                             > span {
                                 margin-left: 4px;
