@@ -86,9 +86,13 @@
             </div>
         </article>
         <article id="portfolio" class="portfolio-wrap">
-            <div class="guide-box">
-                <span class="percent-line"></span>기여도
+            <div class="title-wrap">
+                <h2 class="title-type">portfolio</h2>
+                <div class="side-box">
+                    <span class="percent-line"></span>기여도
+                </div>
             </div>
+
             <ul class="list-portfolio">
                 <li v-for="(portfolio, index) in portfolioList" :key="index">
                     <a href="#" @click.prevent="modalOpen(portfolio)">
@@ -97,7 +101,7 @@
                                 <percent-box
                                     :percent="portfolio.percent"
                                 ></percent-box>
-                                <div class="icon-box">
+                                <div class="text-box">
                                     {{ portfolio.type }}
                                 </div>
                             </div>
