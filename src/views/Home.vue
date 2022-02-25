@@ -143,6 +143,15 @@ export default {
             portfolioItem: {},
             portfolioList: [
                 {
+                    name: "CJ프레시밀",
+                    type: "MO",
+                    term: "2021.11 - 2021.12",
+                    percent: 30,
+                    skill: "html,css,vuejs",
+                    url: "",
+                    desc: `vue로 작업한 프로젝트로 기본 레이아웃 구조와 공통 컴포넌트 가이드 작업진행하였습니다. 메뉴별 나눠서 작업하였으며, 공통컴포넌트 위주로 작업진행하였습니다.`,
+                },
+                {
                     name: "SK텔레콤 T Factory Manager",
                     type: "TABLET",
                     term: "2021.08",
@@ -164,7 +173,7 @@ export default {
                     name: "SK텔레콤 T Place",
                     type: "KIOSK / TABLET / 반응형",
                     term: "2019.12 - 2020.02",
-                    percent: 100,
+                    percent: 80,
                     skill: "html,css,jQuery",
                     url:
                         "http://code.d2.co.kr/2020/skt_tplace/list/plan_tablet.html",
@@ -323,7 +332,7 @@ Sass모듈화를 통해 유지관리가 용이하도록 작업하였습니다`,
     },
     computed: {
         career: function() {
-            return now.getFullYear() - 2015 + 1;
+            return now.getFullYear() - 2015;
         },
     },
     mounted() {
