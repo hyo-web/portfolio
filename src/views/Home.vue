@@ -40,7 +40,7 @@
                                     시멘틱마크업<br />
                                     CSS3, Sass<br />
                                     Git, SVN, Redmine<br />
-                                    JavaScript, jQuery, TweenMax<br />
+                                    JavaScript, Vuejs, jQuery, TweenMax<br />
                                     npm, Gulp, Webpack, Bootstrap<br />
                                     Photoshop, Zeplin, WebStorm, Visual Studio
                                     Code<br />
@@ -143,26 +143,35 @@ export default {
             portfolioItem: {},
             portfolioList: [
                 {
+                    name: "대한전선",
+                    type: "반응형",
+                    term: "2022.07 - 2022.10",
+                    percent: 100,
+                    skill: "html,css,jQuery",
+                    url: "https://taihan.com/",
+                    desc: `[오픈예정] 반응형으로 작업 진행하였습니다.`,
+                },
+                {
                     name: "CJ프레시밀",
-                    type: "MO",
+                    type: "MO [vue]",
                     term: "2021.11 - 2021.12",
                     percent: 30,
                     skill: "html,css,vuejs",
                     url: "",
-                    desc: `vue로 작업한 프로젝트로 기본 레이아웃 구조와 공통 컴포넌트 가이드 작업진행하였습니다. 메뉴별 나눠서 작업하였으며, 공통컴포넌트 위주로 작업진행하였습니다.`,
+                    desc: `vue로 작업한 프로젝트로 기본 레이아웃 구조와 공통 컴포넌트 가이드 작업진행하였습니다. 메뉴별 나눠서 작업하였으며, 메인,점포관리,공통컴포넌트 위주로 작업진행하였습니다.`,
                 },
                 {
                     name: "SK텔레콤 T Factory Manager",
                     type: "TABLET",
                     term: "2021.08",
-                    percent: 100,
+                    percent: 90,
                     skill: "html, css, jQuery",
-                    url: "https://code.d2.co.kr/2021/skt_manager/list/",
+                    url: "https://aws-code.d2.co.kr/2022/rms/list/",
                     desc: ``,
                 },
                 {
                     name: "아우디폭스바겐코리아 VW 리드매니지먼트",
-                    type: "MO",
+                    type: "MO [vue]",
                     term: "2021.07",
                     percent: 30,
                     skill: "html,css,vuejs",
@@ -176,7 +185,7 @@ export default {
                     percent: 80,
                     skill: "html,css,jQuery",
                     url:
-                        "http://code.d2.co.kr/2020/skt_tplace/list/plan_tablet.html",
+                        "http://aws-code.d2.co.kr/2020/skt_tplace/list/plan_tablet.html",
                     desc: `고객사가 요구하는 다양한 차트들을 서치하여 최대한 요건에 맞게 커스텀 진행해서 적용하였고 다양한 모션 작업과 반응형인 특성을 고려하여 SVG로 모션을 연구해서 반영하였습니다. 1년 가까이 진행했던 프로젝트로서 제가 주축으로 공통 가이드를 잡고 일정에 맞추기 위해 인원이 투입이 되었던 큰 규모의 프로젝트이며, 제일 많이 성장했던 프로젝트입니다`,
                 },
                 {
@@ -185,7 +194,7 @@ export default {
                     term: "2019.12 - 2020.02",
                     percent: 100,
                     skill: "html,css,jQuery",
-                    url: "http://code.d2.co.kr/2019/Nshop/list/B2B.html",
+                    url: "http://aws-code.d2.co.kr/2019/Nshop/list/B2B.html",
                     desc: ``,
                 },
                 {
@@ -194,7 +203,7 @@ export default {
                     term: "2019.07 - 2019.10",
                     percent: 80,
                     skill: "html,css,jQuery",
-                    url: "http://code.d2.co.kr/2019/ahc/list/",
+                    url: "http://aws-code.d2.co.kr/2019/ahc/list/",
                     desc: `쇼핑몰이랑 특성에 맞게 페이지가 많고 조건별로 노출되는 부분이 상이한 부분이 많은 작업이었습니다. 일정에 맞추기 위해 3명이 투입되었으며, 제가 주축으로 공통 가이드를 잡고 가이드 기준으로 페이지 작업이 진행할 수 있도록 하였습니다.`,
                 },
                 {
