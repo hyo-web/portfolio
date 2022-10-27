@@ -97,9 +97,16 @@ $WebFont: "Bakbak One", cursive;
             letter-spacing: 4px;
             text-align: center;
             text-shadow: 4px 8px 8px rgb(0, 0, 0, 0.1);
+            animation:upDown 3s both ease infinite;
 
             span {
                 margin-right: 10px;
+            }
+        }
+
+        @keyframes upDown {
+            50% {
+                transform: translateY(20px);
             }
         }
     }
@@ -370,7 +377,8 @@ $WebFont: "Bakbak One", cursive;
                     padding: 4px 10px;
                     font-size: 20px;
                     color: $BColor2;
-                    &:hover{
+
+                    &:hover {
                         text-decoration: underline;
                         text-underline-position: under;
                     }
@@ -546,6 +554,12 @@ $WebFont: "Bakbak One", cursive;
 
                 .desc {
                     margin-top: 20px;
+                }
+
+                .btn-wrap {
+                    >a {
+                        font-size: 18px;
+                    }
                 }
             }
         }

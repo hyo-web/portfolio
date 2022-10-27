@@ -344,7 +344,7 @@ Sass모듈화를 통해 유지관리가 용이하도록 작업하였습니다`,
     },
     computed: {
         career: function() {
-            return now.getFullYear() - 2015;
+            return now.getFullYear() - 2015 + 1;
         },
     },
     mounted() {
