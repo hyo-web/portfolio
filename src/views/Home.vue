@@ -157,7 +157,8 @@ export default {
                     term: "2022.07 - 2022.10",
                     percent: 100,
                     skill: "html,css,jQuery",
-                    url: "https://taihan.com/",
+                    guide: "https://aws-code.d2.co.kr/2022/taihan/guide/color.html",
+                    index: "https://taihan.com/",
                     desc: `[오픈예정] 반응형으로 작업 진행하였습니다.`,
                 },
                 {
@@ -166,7 +167,7 @@ export default {
                     term: "2021.11 - 2021.12",
                     percent: 30,
                     skill: "html,css,vuejs",
-                    url: "",
+                    index: "",
                     desc: `vue로 작업한 프로젝트로 기본 레이아웃 구조와 공통 컴포넌트 가이드 작업진행하였습니다. 메뉴별 나눠서 작업하였으며, 메인,점포관리,공통컴포넌트 위주로 작업진행하였습니다.`,
                 },
                 {
@@ -175,7 +176,7 @@ export default {
                     term: "2021.08",
                     percent: 90,
                     skill: "html, css, jQuery",
-                    url: "https://aws-code.d2.co.kr/2022/rms/list/",
+                    index: "https://aws-code.d2.co.kr/2022/rms/list/",
                     desc: ``,
                 },
                 {
@@ -184,7 +185,7 @@ export default {
                     term: "2021.07",
                     percent: 30,
                     skill: "html,css,vuejs",
-                    url: "",
+                    index: "",
                     desc: `vue로 작업한 프로젝트로 기본 레이아웃 구조와 공통 컴포넌트 가이드 작업진행하였습니다. API를 처음으로 다뤄보는 실무 프로젝트 였습니다.`,
                 },
                 {
@@ -193,8 +194,8 @@ export default {
                     term: "2019.12 - 2020.02",
                     percent: 80,
                     skill: "html,css,jQuery",
-                    url:
-                        "http://aws-code.d2.co.kr/2020/skt_tplace/list/plan_tablet.html",
+                    guide:"http://aws-code.d2.co.kr/2020/skt_tplace/guide/chart.html",
+                    index:"http://aws-code.d2.co.kr/2020/skt_tplace/list/plan_tablet.html",
                     desc: `고객사가 요구하는 다양한 차트들을 서치하여 최대한 요건에 맞게 커스텀 진행해서 적용하였고 다양한 모션 작업과 반응형인 특성을 고려하여 SVG로 모션을 연구해서 반영하였습니다. 1년 가까이 진행했던 프로젝트로서 제가 주축으로 공통 가이드를 잡고 일정에 맞추기 위해 인원이 투입이 되었던 큰 규모의 프로젝트이며, 제일 많이 성장했던 프로젝트입니다`,
                 },
                 {
@@ -203,7 +204,8 @@ export default {
                     term: "2019.12 - 2020.02",
                     percent: 100,
                     skill: "html,css,jQuery",
-                    url: "http://aws-code.d2.co.kr/2019/Nshop/list/B2B.html",
+                    index: "http://aws-code.d2.co.kr/2019/Nshop/list/B2B.html",
+                    site: "https://m.sknshop.co.kr/web/mo/index.htmlx",
                     desc: ``,
                 },
                 {
@@ -212,7 +214,9 @@ export default {
                     term: "2019.07 - 2019.10",
                     percent: 80,
                     skill: "html,css,jQuery",
-                    url: "http://aws-code.d2.co.kr/2019/ahc/list/",
+                    guide: "https://aws-code.d2.co.kr/2019/ahc/pc/shop/html/guide/color.html",
+                    index: "http://aws-code.d2.co.kr/2019/ahc/list/",
+                    site: "https://www.ahc.co.kr/shop/main",
                     desc: `쇼핑몰이랑 특성에 맞게 페이지가 많고 조건별로 노출되는 부분이 상이한 부분이 많은 작업이었습니다. 일정에 맞추기 위해 3명이 투입되었으며, 제가 주축으로 공통 가이드를 잡고 가이드 기준으로 페이지 작업이 진행할 수 있도록 하였습니다.`,
                 },
                 {
@@ -221,16 +225,16 @@ export default {
                     term: "2019.02 - 2019.04",
                     percent: 100,
                     skill: "html,css,jQuery",
-                    url: "",
+                    site: "https://www.lescapehotel.com/",
                     desc: ``,
                 },
                 {
-                    name: "해커스교육그룹 영문사이트 리뉴얼",
+                    name: "해커스교육그룹 영문사이트",
                     type: "PC",
                     term: "2018.09 - 2018.10",
                     percent: 100,
                     skill: "html,css,jQuery",
-                    url: "http://www.hackerseducation.com/",
+                    site: "http://www.hackerseducation.com/",
                     desc: `기존에 오래된 해커스닷컴 영문사이트를 새로 구축하는 작업을 하였습니다.
 CSS3와 jQuery를 활용해 다양한 효과를 주어, 기존에 텍스트 위주였던 페이지와 차별화가 느껴지도록 작업하였습니다.
 애니메이션의 각각 컨텐츠별로 간단하게 클래스를 추가하여 가져다 쓸수 있도록 분리 하였으며,
@@ -242,15 +246,15 @@ Sass모듈화를 통해 유지관리가 용이하도록 작업하였습니다`,
                     term: "2018.09 - 2018.10",
                     percent: 40,
                     skill: "html,css,jQuery",
-                    url: "",
+                    site: "https://ecpa.hackers.com/",
                     desc: `해커스교육그룹 템플릿 작업하였습니다.
 공통된 디자인 요소들을 Sass모듈화 작업 가이드화 하여 쉽게 유지보수와 코드의 재활용이 가능하도록 진행하였습니다.
 템플릿 작업으로써 CSS 사용하는 대표컬러와 Sprite 이미지 URL 변수로 사용하여 추후 간단하게 변경 가능하도록 작업 하였습니다.
 웹퍼블리셔 3명 투입 2번째 포지션으로 작업하였으며, 여러사람과 함께 작업하면서 모듈화의 중요성을 깨달았던 작업이었습니다.`,
                 },
                 {
-                    name: "해커스통합회원",
-                    type: "MO",
+                    name: "해커스 통합회원",
+                    type: "PC / MO",
                     term: "2018.06 - 2018.07",
                     percent: 40,
                     skill: "html,css,jQuery",
@@ -276,7 +280,7 @@ Sass모듈화를 통해 유지관리가 용이하도록 작업하였습니다`,
                     term: "2017.10 - 2017.12",
                     percent: 100,
                     skill: "html,css,jQuery",
-                    url: "",
+                    index: "http://hackershrd.com/worksheet/guide/table.php",
                     desc: `해커스 교육 서비스(b2b) 템플릿 사이트 구축에 참여하였습니다.
 타이틀, 테이블, 버튼, 아이콘 등 유사한 디자인을 가이드페이지로 정리한 후 작업을 진행하였습니다.
 유사한 부분은 공통으로 선언하고 타입별로 재선언하여 재사용과 유지보수에 용이하도록 하였습니다.`,
@@ -287,7 +291,7 @@ Sass모듈화를 통해 유지관리가 용이하도록 작업하였습니다`,
                     term: "2018.03 - 2018.06",
                     percent: 100,
                     skill: "html,css,jQuery",
-                    url: "",
+                    site: "https://china.hackers.com/",
                     desc: `해커스인강 템플릿 기반으로 적용하였으며, 추가된 페이지 작업, 이미지 레이지로드 적용
 이벤트 페이지 이전업무와 관리, 기존 운영 충돌을 피하기 위해 Git  브랜치관리 작업등을 하였습니다. `,
                 },
@@ -297,20 +301,9 @@ Sass모듈화를 통해 유지관리가 용이하도록 작업하였습니다`,
                     term: "2017.12 - 2018.01",
                     percent: 100,
                     skill: "html,css,jQuery",
-                    url: "",
+                    site: "https://public.hackers.com/",
                     desc: `해커스인강 템플릿 기반으로 적용하였으며, 추가된 페이지 작업, 이미지 레이지로드 적용
 이벤트 페이지 이전업무와 관리, 기존 운영 충돌을 피하기 위해 Git  브랜치관리 작업등을 하였습니다. `,
-                },
-                {
-                    name: "해커스영어 리뉴얼",
-                    type: "MO",
-                    term: "2017.09 - 2017.11",
-                    percent: 100,
-                    skill: "html,css,jQuery",
-                    url: "",
-                    desc: `해커스 커뮤니티 사이트인 해커스영어 모바일 메인 리뉴얼에 참여하였습니다.
-네이버와 유사한 형태로 기획되어 네이버를 참고 하였으며,메뉴 편집기능은 jQuery 플러그인을 커스텀하여 사용하였습니다.
-운영중인 서버에 영향이 가지않도록 브런치를 병합해 나가면서 작업진행을 하였습니다`,
                 },
                 {
                     name: "해커스 PREP 리뉴얼",
@@ -318,7 +311,7 @@ Sass모듈화를 통해 유지관리가 용이하도록 작업하였습니다`,
                     term: "2017.09 - 2017.10",
                     percent: 100,
                     skill: "html,css,jQuery",
-                    url: "",
+                    site: "https://mprep.hackers.com/",
                     desc: `해커스인강 템플릿 기반으로 적용하였으며, 추가된 페이지 작업, 이미지 레이지로드 적용
 이벤트 페이지 이전업무와 관리, 기존 운영 충돌을 피하기 위해 Git  브랜치관리 작업등을 하였습니다. `,
                 },
@@ -328,7 +321,7 @@ Sass모듈화를 통해 유지관리가 용이하도록 작업하였습니다`,
                     term: "2016.03 - 2016.10",
                     percent: 30,
                     skill: "html,css,jQuery",
-                    url: "",
+                    site: "https://champ.hackers.com/",
                     desc: `모든 페이지 검수 후 오류 수정 맡아 진행하였으며,
 해커스에 중요 유입 페이지인 모든 이벤트 페이지를 이전 진행하고,
 이벤트 페이지 효율적인 작업을 위해 관리자단에서 관리해야 할 부분을 정리하여 전달 후 가이드 진행, 이벤트 페이지 최적화를 진행하였습니다.
@@ -340,7 +333,7 @@ Sass모듈화를 통해 유지관리가 용이하도록 작업하였습니다`,
                     term: "2016.01 ~ 2016.02",
                     percent: 100,
                     skill: "html,css,jQuery",
-                    url: "http://hackershrd.com/worksheet/guide/table.php",
+                    index: "http://hackershrd.com/worksheet/guide/table.php",
                     desc: `해커스 교육 서비스(b2b) 템플릿 사이트 구축에 참여하였습니다.
 사수 도움 아래 진행하였고, 그 과정에서 CSS 작성 순서와 방법, 네이밍룰을 배울 수 있었습니다.
 또한 개발자에게 전달해야할 이슈사항을 주석을 남기고, 기획자/디자이너/개발자와 원할하게 커뮤니케이션 하는 방법 등 기본 능력을 익힐 수 있었습니다.`,

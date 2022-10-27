@@ -26,10 +26,22 @@
                     <p class="desc">{{ portfolioItem.desc }}</p>
                     <div class="btn-wrap">
                         <a
-                            :href="portfolioItem.url"
-                            v-show="portfolioItem.url"
+                            :href="portfolioItem.guide"
+                            v-show="portfolioItem.guide"
                             target="_blank"
-                            >페이지 이동</a
+                            >Guide</a
+                        >
+                         <a
+                            :href="portfolioItem.index"
+                            v-show="portfolioItem.index"
+                            target="_blank"
+                            >Index</a
+                        >
+                        <a
+                            :href="portfolioItem.site"
+                            v-show="portfolioItem.site"
+                            target="_blank"
+                            >Site</a
                         >
                     </div>
                 </div>
