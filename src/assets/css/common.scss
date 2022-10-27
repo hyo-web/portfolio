@@ -409,6 +409,7 @@ $WebFont: "Bakbak One", cursive;
         z-index: 99;
         transform: translateY(0);
         padding-bottom: calc(env(safe-area-inset-bottom));
+        background-color: #fff;
 
         ul {
             display: flex;
