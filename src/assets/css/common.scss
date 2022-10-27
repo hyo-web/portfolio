@@ -495,23 +495,19 @@ $WebFont: "Bakbak One", cursive;
             }
 
             .list-portfolio {
-                overflow: hidden;
-                overflow-x: auto;
-                white-space: nowrap;
-                padding: 5% 5% 8%;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 40px 20px;
                 margin-top: 0;
                 margin-left: 0;
 
                 li {
-                    margin-left: 20px;
-                    margin-top: 0;
-
-                    &:first-child {
-                        margin-left: 0;
-                    }
+                    width: 50%;
+                    margin: 0 0 40px;
 
                     a {
                         width: 150px;
+                        margin:0 auto;
 
                         .img-box {
                             height: 150px;

@@ -162,7 +162,7 @@ export default {
                 },
                 {
                     name: "CJ프레시밀",
-                    type: "MO [vue]",
+                    type: "MO [vuejs]",
                     term: "2021.11 - 2021.12",
                     percent: 30,
                     skill: "html,css,vuejs",
@@ -180,7 +180,7 @@ export default {
                 },
                 {
                     name: "아우디폭스바겐코리아 VW 리드매니지먼트",
-                    type: "MO [vue]",
+                    type: "MO [vuejs]",
                     term: "2021.07",
                     percent: 30,
                     skill: "html,css,vuejs",
