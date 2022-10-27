@@ -10,6 +10,15 @@
                         <div class="img"></div>
                         <div class="desc">
                             김효영 33세
+                            
+                        </div>
+                        <div class="btn-box">
+                            <a href="https://velog.io/@kimhyo" target="_blank">
+                                <img src="~@/assets/images/icon_velog.svg" alt="">
+                            </a>
+                             <a href="https://github.com/kimhyoyeong/" target="_blank">
+                                <img src="~@/assets/images/icon_git.svg" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="info-box">
