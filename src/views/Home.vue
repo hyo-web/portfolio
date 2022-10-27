@@ -158,8 +158,9 @@ export default {
                     percent: 100,
                     skill: "html,css,jQuery",
                     guide: "https://aws-code.d2.co.kr/2022/taihan/guide/color.html",
-                    index: "https://taihan.com/",
-                    desc: `[오픈예정] 반응형으로 작업 진행하였습니다.`,
+                    index: "https://aws-code.d2.co.kr/2022/taihan/list/",
+                    site: "https://taihan.com/",
+                    desc: `반응형으로 작업 진행하였습니다.`,
                 },
                 {
                     name: "CJ프레시밀",
