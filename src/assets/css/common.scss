@@ -421,9 +421,8 @@ $WebFont: "Bakbak One", cursive;
         ul {
             li {
                 width: 100%;
-
                 a {
-                    height: 50px;
+                    height: calc(env(safe-area-inset-bottom) + 50px);
                     padding-bottom: calc(env(safe-area-inset-bottom));
                 }
             }
