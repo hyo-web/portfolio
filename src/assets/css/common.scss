@@ -84,6 +84,7 @@ $WebFont: "Bakbak One", cursive;
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
         height: 60vh;
         background: url(~@/assets/images/bg3.jpg) 50% 50% no-repeat;
         background-size: cover;
@@ -449,7 +450,7 @@ $WebFont: "Bakbak One", cursive;
     //main
     .view-area {
         .visual-wrap {
-            height: 40vh;
+            height: 50vh;
             background-attachment: initial;
 
             .title {
