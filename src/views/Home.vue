@@ -1,7 +1,7 @@
 <template>
     <section>
         <article id="visual" class="visual-wrap">
-            <h1><span>Hyo</span>Portfolio</h1>
+            <div class="title"><h1><span>Hyo</span>Portfolio</h1></div>
         </article>
         <article id="about" class="about-wrap">
             <div class="inner-box">

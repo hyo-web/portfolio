@@ -89,21 +89,37 @@ $WebFont: "Bakbak One", cursive;
         background-size: cover;
         background-attachment: fixed;
 
-        h1 {
-            font-size: 80px;
-            color: #fff;
-            font-family: $WebFont;
-            letter-spacing: 4px;
-            text-align: center;
-            text-shadow: 4px 8px 8px rgb(0, 0, 0, 0.1);
-            animation: titleMotion 3s both ease infinite;
+        .title {
+            h1 {
+                font-size: 80px;
+                color: #fff;
+                font-family: $WebFont;
+                letter-spacing: 4px;
+                text-align: center;
+                text-shadow: 4px 8px 8px rgb(0, 0, 0, 0.1);
+                animation: upDown 3s both ease infinite;
 
-            span {
-                margin-right: 10px;
+                span {
+                    margin-right: 10px;
+                }
+            }
+
+            animation: title 1s both cubic-bezier(.455, .03, .515, .955);
+        }
+
+        @keyframes title {
+            from {
+                transform: translateY(200px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
             }
         }
 
-        @keyframes titleMotion {
+        @keyframes upDown {
             50% {
                 transform: translateY(20px);
             }
@@ -421,10 +437,10 @@ $WebFont: "Bakbak One", cursive;
         ul {
             li {
                 width: 100%;
+
                 a {
                     height: calc(env(safe-area-inset-bottom) + 50px);
                     padding-bottom: calc(env(safe-area-inset-bottom));
-                    
                 }
             }
         }
@@ -433,14 +449,17 @@ $WebFont: "Bakbak One", cursive;
     //main
     .view-area {
         .visual-wrap {
+            height: 40vh;
             background-attachment: initial;
 
-            h1 {
-                font-size: 60px;
-                line-height: 1;
+            .title {
+                h1 {
+                    font-size: 60px;
+                    line-height: 1;
 
-                >span {
-                    display: block;
+                    >span {
+                        display: block;
+                    }
                 }
             }
         }
@@ -451,11 +470,13 @@ $WebFont: "Bakbak One", cursive;
                 padding: 20px 0;
 
                 .img-box {
-                    width: 250px;
+                    min-width: 180px;
                     margin: 0 auto;
 
                     .img {
+                        height: 180px;
                         margin-right: 0;
+                        background-size: 150px;
                     }
 
                     .desc {
